@@ -49,12 +49,16 @@
 .button{
   font-weight: bold;
   color:grey;
-  background:lightblue;
-  border: 10px lightblue;
+  background:white;
+  border: 10px solid white;
   border-radius:20px;
+  border: 2px solid lightgreen;
   box-shadow: 2px 2px 4px grey;
 }
 
 .button:hover{
-  
+  background:lightgreen;
+  border: 10px solid lightgreen;
+  cursor:pointer;
+  transition: 0.3s;1
 }

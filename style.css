@@ -42,29 +42,19 @@
   margin: 25px 35% 75px;
 }
 
-.button_wrap {
-    position: relative;
-    width: 225px;
-    height: 36px;
-    overflow: hidden;
-    font-weight: bold;
-    font-size: 11px;
-    margin: 10px;
+.chapters{
+  margin: 0px 15%
 }
-.button_aRight{
-    width:70px;
-    height:36px;
-    -moz-border-radius:20px;
-	-webkit-border-radius:20px;
-    background-color:#093d6f;
-    color:#fff;
-    top:0px;
-    left:0px;
-    position:absolute;
-    line-height:36px;
-    text-align:right;
+
+.button{
+  font-weight: bold;
+  color:grey;
+  background:lightblue;
+  border: 10px lightblue;
+  border-radius:20px;
+  box-shadow: 2px 2px 4px grey;
 }
-.button_aRight span{
-    display:none;
-    padding-right:20px;
+
+.button:hover{
+  
 }

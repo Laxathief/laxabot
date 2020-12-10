@@ -23,7 +23,12 @@
   cursor: pointer;
   text-decoration: none;
   color: black;
-  border: 45px solid  white;
-  border-radius: 45px;
+  padding: 16px 32px;
   background: white;
+  transition: 0.3s;
+}
+
+.menu li:hover {
+  background-color: lavender;
+  color: white;
 }

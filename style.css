@@ -4,13 +4,12 @@
   font-family: sans-serif;
 }
 
-.container{
-  width: 100%;
+.anime{
   height: 100%;
-  background: no-repeat url("https://cdn.glitch.com/29837fa8-6e2a-4256-9479-790205f2566c%2Fanime%20trump.jpg?v=1607684105741");
+  background: no-repeat url("https://cdn.glitch.com/29837fa8-6e2a-4256-9479-790205f2566c%2FIMG_4222.jpg?v=1607716985777");
   background-position: center;
   background-attachment: fixed;
-  opacity image 0.5;
+  background-color:opacity 0.5;
 }
 
 .menu ul{

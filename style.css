@@ -22,15 +22,20 @@
   color: grey;}
 
 .anime{
+  background-position: center;
   background-attachment: fixed;
-  background-size: auto 100%;
   padding: 10% 0 10%;}
 
 .anime:after {
   content: "";
   background: no-repeat url("https://cdn.glitch.com/29837fa8-6e2a-4256-9479-790205f2566c%2FIMG_4222.jpg?v=1607716985777");
   opacity: 0.5;
-  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-size: cover;
+  position: fixed;
   z-index: -1;   
 }
 

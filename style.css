@@ -42,9 +42,8 @@
   margin: 25px 35% 75px;
 }
 
-.chapters{
-  margin: 0px 15%;
-  text-align:center;
+.about{
+  
 }
 
 .button{
@@ -64,3 +63,8 @@
   cursor:pointer;
   transition: 0.3s;
 }
+.chapters{
+  margin: 0px 15%;
+  text-align:center;
+}
+

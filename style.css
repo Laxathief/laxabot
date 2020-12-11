@@ -24,7 +24,9 @@
 .anime{
   background-position: center;
   background-attachment: fixed;
-  padding: 10% 0 10%;}
+  padding: 5% 0 5%;
+  font-weight: bold;
+  font-size: 18;}
 
 .anime:after {
   content: "";
@@ -46,7 +48,6 @@
   margin:50px 0px 50px;}
 
 .button{margin: 0 20px;
-  font-weight: bold;
   color:grey;
   background:white;
   border: 10px solid white;

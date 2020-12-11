@@ -7,7 +7,8 @@
 .container{
   width: 100%;
   height: 100%;
-  background-image:url("https://cdn.glitch.com/29837fa8-6e2a-4256-9479-790205f2566c%2Fanime%20trump.jpg?v=1607684105741");
+  background: no-repeat center url("https://cdn.glitch.com/29837fa8-6e2a-4256-9479-790205f2566c%2Fanime%20trump.jpg?v=1607684105741");
+  
 }
 
 .menu ul{

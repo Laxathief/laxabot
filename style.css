@@ -18,14 +18,12 @@
   background: white;
   box-shadow: 2px 2px 4px grey;
   position:fixed;
-  margin: -50px 0;
 }
 
 .menu li{
   font-weight: bold;
   list-style: none;
   cursor: pointer;
-  text-decoration: none;
   color: black;
   text-align: center;
   width: 25%;
@@ -41,7 +39,7 @@
 
 .home{
   text-align: center;
-  margin: 50px 35% 50px;
+  margin: 0 35% 50px;
 }
 
 .buttons{

@@ -26,7 +26,7 @@ html {
 .anime{
   background-position: center;
   background-attachment: fixed;
-  padding: 0 0 5%;
+  padding: 7.5% 0 7.5%;
   font-weight: bold;
   font-size: 18;}
 
@@ -47,9 +47,9 @@ html {
   margin: 0 35% 50px;}
 
 .buttons{text-align: center;
-  margin:50px 0px 50px;}
+  margin:50px 0 50px;}
 
-.button{margin: 0 20px;
+.button{margin: 20px 20px 20px;
   color:grey;
   background:white;
   border: 10px solid white;

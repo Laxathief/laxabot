@@ -1,26 +1,14 @@
-*{
-  margin: 0;
+*{margin: 0;
   padding: 0;
-  font-family: sans-serif;
-}
+  font-family: sans-serif;}
 
-.anime{
-  background: no-repeat url("https://cdn.glitch.com/29837fa8-6e2a-4256-9479-790205f2566c%2FIMG_4222.jpg?v=1607716985777");
-  background-position: center;
-  background-attachment: fixed;
-  background-size: auto 100%;
-  padding: 10% 0 10%;
-}
-.menu ul{
-  display:inline-flex;
+.menu ul{display:inline-flex;
   width: 100%;
   background: white;
   box-shadow: 2px 2px 4px grey;
-  position:fixed;
-}
+  position:fixed;}
 
-.menu li{
-  font-weight: bold;
+.menu li{font-weight: bold;
   list-style: none;
   cursor: pointer;
   color: black;
@@ -28,33 +16,37 @@
   width: 25%;
   padding: 20px;
   background: white;
-  transition: 0.3s;
+  transition: 0.3s;}
+
+.menu li:hover {background-color: lightgreen;
+  color: grey;}
+
+.anime{
+  background-attachment: fixed;
+  background-size: auto 100%;
+  padding: 10% 0 10%;}
+
+.anime:after {
+  content: "";
+  background: no-repeat url("https://cdn.glitch.com/29837fa8-6e2a-4256-9479-790205f2566c%2FIMG_4222.jpg?v=1607716985777");
+  opacity: 0.5;
+  position: absolute;
+  z-index: -1;   
 }
 
-.menu li:hover {
-  background-color: lightgreen;
-  color: grey;
-}
+.home{text-align: center;
+  margin: 0 35% 50px;}
 
-.home{
-  text-align: center;
-  margin: 0 35% 50px;
-}
+.buttons{text-align: center;
+  margin:50px 0px 50px;}
 
-.buttons{
-  text-align: center;
-  margin:50px 0px 50px;
-}
-
-.button{
-  margin: 0 20px;
+.button{margin: 0 20px;
   font-weight: bold;
   color:grey;
   background:white;
   border: 10px solid white;
   border-radius:20px;
-  box-shadow: 2px 2px 4px grey;
-}
+  box-shadow: 2px 2px 4px grey;}
 
 .button:hover{
   color:black;

@@ -23,6 +23,23 @@ html {
 .menu li:hover {background-color: lightgreen;
   color: grey;}
 
+<style>
+div {
+  background: red;
+  border-radius: 10px;  
+}
+</style>
+
+
+.display{
+  background: #D8D8D8;
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  margin:50px 0 50px;}
+
+
+
 .anime{
   background-position: center;
   background-attachment: fixed;
@@ -48,6 +65,8 @@ html {
 
 .buttons{text-align: center;
   margin:50px 0 50px;}
+
+
 
 .button{margin: 20px 20px 20px;
   color:grey;

@@ -5,6 +5,12 @@
 /*/////////////////*/
 /* type d'éléments */
 /*/////////////////*/
+body{
+  background-image: url('https://cdn.glitch.global/91f6f71f-8d76-4679-872c-33727339c8db/background.png?v=1648910078238');
+  background-position: top; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
 
 html {
   scroll-behavior: smooth;}

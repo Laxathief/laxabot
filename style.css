@@ -37,7 +37,11 @@ textarea {
 .display{
   background: #D8D8D8;
   position: fixed;
-  bottom: 300px;}
+  bottom: 0px;
+  left: 50%;
+  transform: translate(-50%);
+  
+}
 
 
 

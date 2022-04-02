@@ -4,6 +4,7 @@
 html {
   scroll-behavior: smooth;
 }
+
 .menu ul{display:inline-flex;
   width: 100%;
   background: white;
@@ -28,8 +29,7 @@ html {
   background: #D8D8D8;
   width: 100px;
   height: 100px;
-  border-radius: 20px;
-  margin:50px 0 50px;}
+  border-radius: 20px;}
 
 
 

@@ -23,13 +23,6 @@ html {
 .menu li:hover {background-color: lightgreen;
   color: grey;}
 
-<style>
-div {
-  background: red;
-  border-radius: 10px;  
-}
-</style>
-
 
 .display{
   background: #D8D8D8;

@@ -1,0 +1,78 @@
+*{margin: 0;
+  padding: 0;
+  font-family: sans-serif;}
+html {
+  scroll-behavior: smooth;
+}
+.menu ul{display:inline-flex;
+  width: 100%;
+  background: white;
+  box-shadow: 2px 2px 4px grey;
+  position:fixed;}
+
+.menu li{font-weight: bold;
+  list-style: none;
+  cursor: pointer;
+  color: black;
+  text-align: center;
+  width: 25%;
+  padding: 20px;
+  background: white;
+  transition: 0.3s;}
+
+.menu li:hover {background-color: lightgreen;
+  color: grey;}
+
+.anime{
+  background-position: center;
+  background-attachment: fixed;
+  padding: 7.5% 0 7.5%;
+  font-weight: bold;
+  font-size: 18;}
+
+.anime:after {
+  content: "";
+  background: no-repeat url("https://cdn.glitch.com/29837fa8-6e2a-4256-9479-790205f2566c%2Funknown.png?v=1607861731161");
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-size: cover;
+  position: fixed;
+  z-index: -1;   
+}
+
+.home{text-align: center;
+  margin: 0 35% 50px;}
+
+.buttons{text-align: center;
+  margin:50px 0 50px;}
+
+.button{margin: 20px 20px 20px;
+  color:grey;
+  background:white;
+  border: 10px solid white;
+  border-radius:20px;
+  box-shadow: 2px 2px 4px grey;}
+
+.button:hover{
+  color:black;
+  background:LightGray;
+  border: 10px solid LightGray;
+  transition: 0.3s;
+}
+
+.about{
+  margin: 0 25% 0px;
+}
+
+.chapters{
+  margin: 0 10%;
+  padding:0 10%;
+  text-align:left;
+  background:white;
+  background-size: ;
+  
+}
+

@@ -1,18 +1,40 @@
 *{margin: 0;
   padding: 0;
   font-family: sans-serif;}
+
+/*/////////////////*/
+/* type d'éléments */
+/*/////////////////*/
+
 html {
-  scroll-behavior: smooth;
-}
+  scroll-behavior: smooth;}
+
 textarea {
   resize: none;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   width: 100%;
-  background: #D8D8D8
-  
+  background: rgba(200, 200, 200, 0);
+  border: none;
+  outline: none;
+font-size:24px;}
+
+input {
+  background: rgba(200, 200, 200, 0);
+  border: none;
+  outline: none;
+  font-size:24px;}
+
+hr.rounded {
+  border-top: 5px solid rgba(200, 200, 200, 0.5);
+  border-bottom: 5px solid rgba(200, 200, 200, 0.5);
+  border-radius: 5px;
 }
+
+/*/////////////////*/
+/* éléments précis */
+/*/////////////////*/
 
 .menu ul{display:inline-flex;
   width: 100%;
@@ -35,7 +57,7 @@ textarea {
 
 
 .display{
-  background: #D8D8D8;
+  background: rgba(200, 200, 200, 0.5);
   position: fixed;
   bottom: 0px;
   left: 50%;

@@ -29,62 +29,8 @@ html {
   background: #D8D8D8;
   width: 100px;
   height: 100px;
-  border-radius: 20px;}
-
-
-
-.anime{
-  background-position: center;
-  background-attachment: fixed;
-  padding: 7.5% 0 7.5%;
-  font-weight: bold;
-  font-size: 18;}
-
-.anime:after {
-  content: "";
-  background: no-repeat url("https://cdn.glitch.com/29837fa8-6e2a-4256-9479-790205f2566c%2Funknown.png?v=1607861731161");
-  opacity: 0.5;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background-size: cover;
+  border-radius: 20px;
   position: fixed;
-  z-index: -1;   
-}
+  bottom: 0px;}
 
-.home{text-align: center;
-  margin: 0 35% 50px;}
-
-.buttons{text-align: center;
-  margin:50px 0 50px;}
-
-
-
-.button{margin: 20px 20px 20px;
-  color:grey;
-  background:white;
-  border: 10px solid white;
-  border-radius:20px;
-  box-shadow: 2px 2px 4px grey;}
-
-.button:hover{
-  color:black;
-  background:LightGray;
-  border: 10px solid LightGray;
-  transition: 0.3s;
-}
-
-.about{
-  margin: 0 25% 0px;
-}
-
-.chapters{
-  margin: 0 10%;
-  padding:0 10%;
-  text-align:left;
-  background:white;
-  background-size: ;
-  
-}
 

@@ -1,6 +1,0 @@
-User-Agent: *
-Disallow: /*?preview=*
-Disallow: /wgsw_admin/
-Disallow: /*?id=
-Disallow: /*&id=
-Disallow: /*$*

@@ -20,8 +20,9 @@ textarea {
   background: rgba(200, 200, 200, 0);
   border: none;
   outline: none;
-  
-  font-size:24px;}
+  resize: none;
+  font-size:24px;
+  margin-left}
 
 input {
   background: rgba(200, 200, 200, 0);
@@ -32,8 +33,7 @@ input {
 hr.rounded {
   border-top: 5px solid rgba(200, 200, 200, 0.5);
   border-bottom: 5px solid rgba(200, 200, 200, 0.5);
-  border-radius: 10px;
-}
+  border-radius: 10px;}
 
 /*/////////////////*/
 /* éléments précis */

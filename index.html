@@ -261,7 +261,7 @@
     conj3[6]  = "will me";   	conj4[6]  = "will I";
    
 
-<!keywords>
+//keywords
 
     keyword[ 0]=new key( "CAN YOU",  		1,  3);
     keyword[ 1]=new key( "CAN I",    		4,  5);
@@ -303,7 +303,7 @@
     keyword[37]=new key( "HELLO", 	        117, 118);
     keyword[37]=new key( "OKAY", 	        83, 119);
   
-<!responses>  
+//responses  
   
     response[  0]="I'll have to get back to you on that<*";
     response[  1]="Don't you believe that I can<*";
@@ -426,12 +426,18 @@
     response[118]="I am pleased to work with you today. Shall we chat?";
 	response[119]="Good. What else do you want to tell me?";
 	
-    loaded = true;			// set the flag as load done
+     loaded = true;			// set the flag as load done
                
+///////////////////////////////////////////////////////////////
+//***********************************************************//
+//* everything below here was originally in dia_1.html      *//
+//***********************************************************//
+///////////////////////////////////////////////////////////////
 
+// Chat Bot by George Dunlop, www.peccavi.com
+// May be used/modified if credit line is retained (c) 1997 All rights reserved
 
-
-<!response>
+// Put together an array for the dialog
     
 	chatmax = 5;						// number of lines / 2
 	chatpoint = 0;
@@ -453,7 +459,34 @@
 		else { setTimeout("start()", 1000); }
 	}
 
-
+// Fake time thinking to allow for user self reflection
+// And to give the illusion that some thinking is going on
+	
+	var elizaresponse = "";
+	
+	function think(){
+		document.Eliza.input.value = "";        
+		if( elizaresponse != "" ){ respond(); }		
+		else { setTimeout("think()", 250); }
+	}
+	function dialog(){
+		var Input = document.Eliza.input.value;	  // capture input and copy to log
+		document.Eliza.input.value = "";        
+		chatter[chatpoint] = " \n* " + Input;
+		elizaresponse = listen(Input);
+		setTimeout("think()", 1000 + Math.random()*3000);
+		chatpoint ++ ; 
+		if( chatpoint >= chatmax ){ chatpoint = 0; }
+		return write();
+	}
+	function respond(){
+		chatpoint -- ; 
+		if( chatpoint < 0 ){ chatpoint = chatmax-1; }
+		chatter[chatpoint] += "\n> " + elizaresponse;
+		chatpoint ++ ; 
+		if( chatpoint >= chatmax ){ chatpoint = 0; }
+		return write();
+	}
 // Allow for unprompted response from the engine
 
 	function update(str1,str2){

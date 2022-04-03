@@ -11,7 +11,9 @@ const cubism4Model =
 
   app.stage.addChild(model4);
 
-  model4.scale.set(0.5);
+  
+  model4.width=options.width;
+  model4.scale.set(model4.scale.x);
 
   
 })();

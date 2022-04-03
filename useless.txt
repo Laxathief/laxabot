@@ -6,3 +6,10 @@ body{
 }
 
 pour le .CSS
+
+colère
+dégoût
+peur
+heureux
+tristesse
+surprise

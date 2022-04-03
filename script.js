@@ -11,6 +11,6 @@ const cubism4Model =
 
   app.stage.addChild(model4);
 
-  model4.scale.set(0.5);
-  model4.pos="0";
+  model4.scale.set(0.1);
+  model4.x = 0;
 })();

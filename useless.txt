@@ -13,3 +13,4 @@ peur
 heureux
 tristesse
 surprise
+  model4.scale.set(model4.scale.x);

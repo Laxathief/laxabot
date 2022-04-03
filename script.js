@@ -1,5 +1,5 @@
 const cubism4Model =
-"https://cdn.jsdelivr.net/gh/guansss/pixi-live2d-display/test/assets/haru/haru_greeter_t03.model3.json";
+"./Live2D/mk1.model3.json";
 
 (async function main() {
   const app = new PIXI.Application({
@@ -12,8 +12,9 @@ const cubism4Model =
   app.stage.addChild(model4);
 
   
-  model4.width=options.width;
+  model4.width=screen.width;
   model4.scale.set(model4.scale.x);
+
 
   
 })();

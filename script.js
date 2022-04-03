@@ -13,5 +13,5 @@ const cubism4Model =
 
   model4.scale.set(0.5);
 
-  model4.pos = "center";
+  model4.pos ;
 })();

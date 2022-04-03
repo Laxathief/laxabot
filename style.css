@@ -25,9 +25,7 @@ input.field {
   border: none;
   outline: none;
   font-size:24px;
-  margin-left: 2%;
-  margin-top: 1%;
-  margin-bottom: 1%;
+  margin: 1% 2%;;
   }
 
 input.submit {
@@ -37,8 +35,7 @@ input.submit {
   font-size:24px;
 
   float: right;
-  padding: 1%;
-  padding-right: 2%
+  padding: 1% 2%;}
 
 hr.rounded {
   border-top: 2px solid rgba(200, 200, 200, 0.3);

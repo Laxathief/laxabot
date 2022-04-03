@@ -7,12 +7,11 @@ const cubism4Model =
     autoStart: true,
     resizeTo: window });
 
-
   const model4 = await PIXI.live2d.Live2DModel.from(cubism4Model);
 
   app.stage.addChild(model4);
 
-  model4.scale.set(0.25);
+  model4.scale.set(0.5);
 
-  model4.x = 300;
+  model4.pos = "center";
 })();

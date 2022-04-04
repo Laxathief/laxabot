@@ -1,15 +1,18 @@
-*{margin: 0;
+* {
+  margin: 0;
   padding: 0;
   font-family: "Open Sans", sans-serif;
   font-weight: 100;
-  color: white}
+  color: white;
+}
 
 /*/////////////////*/
 /* type d'éléments */
 /*/////////////////*/
 
 html {
-  scroll-behavior: smooth;}
+  scroll-behavior: smooth;
+}
 
 textarea {
   width: 100%;
@@ -17,46 +20,52 @@ textarea {
   border: none;
   outline: none;
   resize: none;
-  font-size:24px;
-  margin-left:2%}
+  font-size: 24px;
+  margin-left: 2%;
+}
 
 input.field {
   background: rgba(200, 200, 200, 0);
   border: none;
   outline: none;
-  font-size:24px;
-  margin: 1% 2%;;
-  }
+  font-size: 24px;
+  margin: 1% 2%;
+}
 
 input.submit {
   background: rgba(200, 200, 200, 0.1);
   border: none;
   outline: none;
-  font-size:24px;
+  font-size: 24px;
 
   float: right;
-  padding: 1% 2%;}
+  padding: 1% 2%;
+}
 
 hr.rounded {
   border-top: 2px solid rgba(200, 200, 200, 0.3);
-  border-bottom: 2px solid rgba(200, 200, 200, 0.3);}
+  border-bottom: 2px solid rgba(200, 200, 200, 0.3);
+}
 
-canvas{
-max-width:100%;
-max-height:100%;
+canvas {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 /*/////////////////*/
 /* éléments précis */
 /*/////////////////*/
 
-.menu ul{display:inline-flex;
+.menu ul {
+  display: inline-flex;
   width: 100%;
   background: white;
   box-shadow: 2px 2px 4px grey;
-  position:fixed;}
+  position: fixed;
+}
 
-.menu li{font-weight: bold;
+.menu li {
+  font-weight: bold;
   list-style: none;
   cursor: pointer;
   color: black;
@@ -64,17 +73,17 @@ max-height:100%;
   width: 25%;
   padding: 20px;
   background: white;
-  transition: 0.3s;}
+  transition: 0.3s;
+}
 
-.menu li:hover {background-color: lightgreen;
-  color: grey;}
+.menu li:hover {
+  background-color: lightgreen;
+  color: grey;
+}
 
-
-.display{
+.display {
   background: rgba(200, 200, 200, 0.1);
   position: fixed;
   bottom: 0px;
-  width: 100%;}
-
-
-
+  width: 100%;
+}

@@ -13,4 +13,5 @@ const cubism4Model = "./Live2D/mk1.model3.json";
 
   model4.width = window.innerWidth;
   model4.scale.set(model4.scale.x);
+  model4.expression('expression3$.exp3.json');
 })();

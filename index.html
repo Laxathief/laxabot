@@ -580,7 +580,7 @@
         if (elizaresponse != "") {
           respond();
         } else {
-          setTimeout("think()", 250);
+          setTimeout("think()", 0);
         }
       }
 
@@ -589,7 +589,7 @@
         document.Eliza.input.value = "";
         chatter[chatpoint] = " \n* " + Input;
         elizaresponse = listen(Input);
-        setTimeout("think()", 1000 + Math.random() * 3000);
+        setTimeout("think()", 0);
         chatpoint++;
         if (chatpoint >= chatmax) {
           chatpoint = 0;
@@ -642,8 +642,8 @@
 
     <div class="display">
       <form name="Eliza" onSubmit="return dialog();">
-        <textarea rows="5" name="log"> </textarea>
-        <hr class="rounded" />
+        <textarea readonly rows="5" name="log"> </textarea>
+        <hr/>
         <input
           class="field"
           type="text"
@@ -652,7 +652,7 @@
           placeholder="Say hello!"
         />
         <input class="submit" type="submit" value="Send" />
-        <hr class="rounded" />
+        <hr/>
       </form>
     </div>
   </body>

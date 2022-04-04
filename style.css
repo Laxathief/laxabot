@@ -42,9 +42,9 @@ input.submit {
   padding: 1% 2%;
 }
 
-hr.rounded {
-  border-top: 2px solid rgba(200, 200, 200, 0.3);
-  border-bottom: 2px solid rgba(200, 200, 200, 0.3);
+hr {
+  border-top: 2px solid rgba(200, 200, 200, 0.1);
+  border-bottom: 2px solid rgba(200, 200, 200, 0.1);
 }
 
 canvas {

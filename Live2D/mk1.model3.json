@@ -6,7 +6,6 @@
       "https://cdn.glitch.global/91f6f71f-8d76-4679-872c-33727339c8db/texture_00.png?v=1649024127131"
     ],
     "Physics": "Mk1.physics3.json",
-    "DisplayInfo": "Mk1.cdi3.json",
     "Expressions": [
       {
         "Name": "expression0.exp3.json",

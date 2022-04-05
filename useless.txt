@@ -7,10 +7,10 @@ body{
 
 pour le .CSS
 
-colère
-dégoût
-peur
-heureux
-tristesse
-surprise
+colère (eyebws \ /)
+peur (eyebrows + shadow forehead)
+heureux smile
+tristesse (eyebrows)
+
+
   model4.scale.set(model4.scale.x);

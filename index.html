@@ -574,7 +574,6 @@
         document.Eliza.input.value = "";
         chatter[chatpoint] = " \n* " + Input;
         elizaresponse = listen(Input);
-        
         chatpoint++;
         respond();
         if (chatpoint >= chatmax) {
@@ -627,9 +626,9 @@
     <!-- Chatting overlay -->
 
     <div class="display">
-      <form name="Eliza" onSubmit="return dialog();">
+      <form name="Eliza" onsubmit="return dialog();">
         <textarea readonly rows="5" name="log"> </textarea>
-        <hr/>
+        <hr />
         <input
           class="field"
           type="text"
@@ -638,7 +637,7 @@
           placeholder="Say hello!"
         />
         <input class="submit" type="submit" value="Send" />
-        <hr/>
+        <hr />
       </form>
     </div>
   </body>

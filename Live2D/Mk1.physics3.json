@@ -8,7 +8,7 @@
     "EffectiveForces": {
       "Gravity": {
         "X": 0,
-        "Y": -1
+        "Y": 0
       },
       "Wind": {
         "X": 0,
@@ -4120,8 +4120,6 @@
           "Reflect": false
         }
       ],
-      
-      
       "Vertices": [
         {
           "Position": {
@@ -4164,13 +4162,11 @@
           "Radius": 8
         }
       ],
-      
-      
       "Normalization": {
         "Position": {
-          "Minimum": 0,
+          "Minimum": -10,
           "Default": 0,
-          "Maximum": 0
+          "Maximum": 10
         },
         "Angle": {
           "Minimum": -40,

@@ -561,36 +561,22 @@
       //* Timer & answer*//
       //*///////////////*//
 
-      // Chat Bot by George Dunlop, www.peccavi.com
-      // May be used/modified if credit line is retained (c) 1997 All rights reserved
-
       // Put together an array for the dialog
 
       chatmax = 5; // number of lines / 2
       chatpoint = 0;
       chatter = new Array(chatmax);
 
-      // Fake time thinking to allow for user self reflection
-      // And to give the illusion that some thinking is going on
-
       var elizaresponse = "";
-
-      function think() {
-        document.Eliza.input.value = "";
-        if (elizaresponse != "") {
-          respond();
-        } else {
-          setTimeout("think()", 0);
-        }
-      }
 
       function dialog() {
         var Input = document.Eliza.input.value; // capture input and copy to log
         document.Eliza.input.value = "";
         chatter[chatpoint] = " \n* " + Input;
         elizaresponse = listen(Input);
-        setTimeout("think()", 0);
+        
         chatpoint++;
+        respond();
         if (chatpoint >= chatmax) {
           chatpoint = 0;
         }
